@@ -1,3 +1,4 @@
+using dotNetTesting.Payments.Domain.Model;
 using dotNetTesting.Payments.Model;
 
 namespace dotNetTesting.Payments;

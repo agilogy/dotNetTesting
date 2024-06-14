@@ -1,15 +1,13 @@
-using dotNetTesting.Payments;
-using JetBrains.Annotations;
-using Xunit;
-
-namespace dotNetTesting.Tests.Payments;
-
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using dotNetTesting.Payments;
+using dotNetTesting.Payments.Domain.Model;
 using dotNetTesting.Payments.Model;
 using JetBrains.Annotations;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+using Xunit;
+using Assert = Microsoft.VisualStudio.TestTools.UnitTesting.Assert;
+
+namespace dotNetTesting.Tests.Payments.Domain;
 
 [TestSubject(typeof(CreatePaymentUseCase))]
 public class CreatePaymentUseCaseTest

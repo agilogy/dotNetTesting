@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using dotNetTesting.Payments;
+using dotNetTesting.Payments.Domain.Model;
 using dotNetTesting.Payments.Model;
 
 namespace dotNetTesting.Tests.Payments;
