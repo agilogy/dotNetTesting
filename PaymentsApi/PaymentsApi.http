@@ -1,0 +1,6 @@
+@PaymentsApi_HostAddress = http://localhost:5183
+
+POST {{PaymentsApi_HostAddress}}/payments/
+Accept: application/json
+
+###
