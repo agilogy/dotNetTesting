@@ -21,7 +21,7 @@ public class FakeCreatePaymentUseCase : ICreatePaymentUseCase
 
 public class PaymentsApiShould
 {
-    private HttpClient _testClient; 
+    private readonly HttpClient _testClient; 
     public PaymentsApiShould()
     {
         var builder = WebApplication.CreateBuilder();
@@ -29,8 +29,10 @@ public class PaymentsApiShould
         builder.Services.Replace(new ServiceDescriptor(typeof(ICreatePaymentUseCase), new FakeCreatePaymentUseCase()));
         builder.WebHost.UseTestServer();
         var app = builder.Build();
+        app.UseEndpoints();
         app.Start();
         _testClient = app.GetTestClient();
+        _testClient.Timeout = TimeSpan.FromSeconds(10);
     }
 
     [Fact]

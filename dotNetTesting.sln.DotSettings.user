@@ -2,12 +2,9 @@
 	<s:String x:Key="/Default/Environment/UnitTesting/CreateUnitTestDialog/TestProjectMapping/=C5961CBC_002DC1B6_002D41C1_002D9136_002D592B8938B0BC/@EntryIndexedValue">A36D0609-9572-44AF-95AD-01FECE04C0C8</s:String>
 	<s:String x:Key="/Default/Environment/UnitTesting/CreateUnitTestDialog/TestTemplateMapping/=MSTest/@EntryIndexedValue">d6790ab7-33c2-4425-b2c9-51480cd1a852</s:String>
 	<s:String x:Key="/Default/Environment/UnitTesting/CreateUnitTestDialog/TestTemplateMapping/=xUnit/@EntryIndexedValue">33ff99d8-b1ad-4ed5-a4fd-376b97c2c841</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=218e9e6b_002D00d6_002D47fd_002D816f_002D68604b4b26ff/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="CreatePaymentUseCaseTest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
-  &lt;Or&gt;
-    &lt;Project Location="/Users/adriamanesmedina/Documents/agilogy/trainings/dotNetTesting/dotNetTesting.Tests" Presentation="&amp;lt;dotNetTesting.Tests&amp;gt;" /&gt;
-    &lt;TestAncestor&gt;
-      &lt;TestId&gt;xUnit::746D49C0-1EF3-4EB1-A8B8-B59F8439E2AE::net8.0::PaymentsApi.Tests.PaymentsApiShould.Test1&lt;/TestId&gt;
-      &lt;TestId&gt;xUnit::746D49C0-1EF3-4EB1-A8B8-B59F8439E2AE::net8.0::PaymentsApi.Tests.PaymentsApiShould&lt;/TestId&gt;
-    &lt;/TestAncestor&gt;
-  &lt;/Or&gt;
-&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=af87a751_002D1e96_002D4590_002Daa7e_002D6970b60a7a01/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="All tests from PaymentsApiShould.cs" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;ProjectFile&gt;746D49C0-1EF3-4EB1-A8B8-B59F8439E2AE/f:PaymentsApiShould.cs&lt;/ProjectFile&gt;
+&lt;/SessionState&gt;</s:String>
+	
+	
+	</wpf:ResourceDictionary>
