@@ -3,7 +3,9 @@ using dotNetTesting.Services;
 
 namespace dotNetTesting.Payments;
 
-public class CreatePaymentUseCase
+
+
+public class CreatePaymentUseCase : ICreatePaymentUseCase
 {
     private readonly IGuidGenerator _guidGenerator;
     private readonly IPaymentsRepository _paymentsRepository;
@@ -36,6 +38,8 @@ public class CreatePaymentUseCase
         return payment.Id;
     }
 }
+
+
 
 public record CreatePaymentRequest(MonetaryAmount Amount, EntityId Payer, EntityId Payee);
 
